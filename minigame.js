@@ -37,7 +37,7 @@
   // start a new round
   function newRound() {
     targetRadius   = 20 + Math.random() * 120;      // 30–150px
-    const shrinkDuration = 400 + Math.random() * 200; // 800–1200ms
+    const shrinkDuration = 200 + Math.random() * 200; // 800–1200ms
     const delay      = 500 + Math.random() * 1000;  // 0.5–1.5s before start
 
     shrinking = false;
