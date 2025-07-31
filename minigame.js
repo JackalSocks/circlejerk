@@ -111,8 +111,8 @@
       } else {
         msgDiv.textContent =
           diff < 30
-            ? `Close! Off by ${diff.toFixed(1)}px`
-            : `Miss! Off by ${diff.toFixed(1)}px`;
+            ? `Close!`
+            : `Miss!`;
       }
 
       setTimeout(newRound, 1500);
