@@ -115,7 +115,7 @@
             : `Miss!`;
       }
 
-      setTimeout(newRound, 500);
+      setTimeout(newRound, 100);
     }
   });
 
