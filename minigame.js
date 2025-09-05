@@ -38,7 +38,7 @@
   function newRound() {
     targetRadius   = 20 + Math.random() * 120;      // 30–150px
     const shrinkDuration = 300 + Math.random() * 200; // 800–1200ms
-    const delay      = 0 + Math.random() * 500;  // 0.5–1.5s before start
+    const delay      = 0 + Math.random() * 200;  // 0.5–1.5s before start
 
     shrinking = false;
     msgDiv.textContent = '';
